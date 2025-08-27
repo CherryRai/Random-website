@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sthapana's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact me</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Sthapana</span>
+                <div>and I am a passionate</div>
+                <!-- <div>web developer</div> -->
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="developer1.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="textgrey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="canva.png" alt="canva logo">
+                    <div class="vertical-title">
+                        Canva (2022-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        I have been working with canva for years.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ps.png" alt="photoshop logo">
+                    <div class="vertical-title">
+                        Photoshop<br>(May-August)
+                    </div>
+                    <div class="vertical-desc">
+                        I have been working with photoshop from may to august 2025.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ai.png" alt="illustrator logo">
+                    <div class="vertical-title">
+                        Illustrator<br>(May-August)
+                    </div>
+                    <div class="vertical-desc">
+                        I have been working with illustrator from may to august 2025.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="html logo">
+                    <div class="vertical-title">
+                        HTML Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        I have been working with html for 2 years.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css.png" alt="css logo">
+                    <div class="vertical-title">
+                        CSS Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        I have been working with css for 2 years.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Sthapana's Cool Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <!-- <li>Home</li> -->
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>About</li>
+                    <li>Services</li>
+                   
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 www.sthapanasportfolio.com | All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Graphic Designer</i>', '&amp; <i>Web Developer.</i>'],
+            typeSpeed: 50,
+            backSpeed: 40,
+            //   startDelay: 1000,     
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
